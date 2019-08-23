@@ -1,0 +1,40 @@
+ul.nav {
+display: inline-block;
+   text-align:center; 
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:36px; line-height:35px;
+     width:100%;
+    Background:red; /* #6a4255; you can change the backgrund color here. */
+    font-family:arial,sans-serif,Helvetica;
+    font-size:25px; top:25px;
+  
+}
+
+gradient{
+  height: 200px;
+  background-image: linear-gradient(red, yellow, blue);
+}
+
+ul.nav li {display: inline-block;
+    border-right:1px solid teal; /*    you can change the border color matching to your background color */
+   }
+ul.nav a {
+    display:block;
+    padding:0 28px;
+    color:gold;  
+   /* text-decoration:none;  -- to remove underlines*/
+}
+ul.nav a:hover,  ul.nav li.current a {
+    background:green; 
+}
+p {
+  text-align: left;
+}
+video {
+    position: absolute;
+    Left:70%; top:300px;
+    transform:translateX(-50%);
+}
+<img src="images.jpg" alt="igjiurhg"  width="600" height="600"  align="center"  /> 
